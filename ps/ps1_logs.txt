@@ -1,0 +1,37 @@
+==================================================
+Realizando test del tipo: 1
+Timestamp: 2025-07-31 06:17:01
+Seed configurado: 1234
+Corriendo el test de la clase EstimadorOLS
+Resultado de Cross-Validation:
+Testeando <class 'ps.ps1.EstimadorOLS'>
+Resultado de Cross-Validation:
+Scores  : [99.83%, 99.84%, 99.84%, 99.82%, 99.79%]
+Mean    : 99.82%
+Std Dev : 0.02%
+Original coefs:
+[91.24180775 35.26752536 54.24529655 94.50110629 93.59602075 13.35326338
+ 99.01663251 67.11803665 55.4120574  88.83088879]
+Fitted coefs:
+Constante: 5.156110
+Coeficientes: [91.60080555 34.94535293 54.28341038 94.20550105 94.00134648 13.25777365
+ 99.4225115  67.27709181 55.24055602 88.97083603]
+Se pasaron correctamente todos los checks.
+==================================================
+Realizando test del tipo: 2
+Timestamp: 2025-07-31 06:18:35
+Seed configurado: 1234
+Corriendo el test de la clase EstimadorOLS sin constante
+Resultado de Cross-Validation:
+Testeando <class 'ps.ps1.EstimadorOLS'>
+Resultado de Cross-Validation:
+Scores  : [99.81%, 99.79%, 99.77%, 99.77%, 99.74%]
+Mean    : 99.78%
+Std Dev : 0.03%
+Original coefs:
+[91.24180775 35.26752536 54.24529655 94.50110629 93.59602075 13.35326338
+ 99.01663251 67.11803665 55.4120574  88.83088879]
+Fitted coefs:
+Coeficientes: [91.41990051 35.08044122 54.59951641 94.35020409 94.04681391 13.31863362
+ 99.78574734 67.39283135 55.19142788 88.8269776 ]
+Se pasaron correctamente todos los checks.
