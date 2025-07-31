@@ -35,3 +35,10 @@ Fitted coefs:
 Coeficientes: [91.41990051 35.08044122 54.59951641 94.35020409 94.04681391 13.31863362
  99.78574734 67.39283135 55.19142788 88.8269776 ]
 Se pasaron correctamente todos los checks.
+==================================================
+Realizando test del tipo: 3
+Timestamp: 2025-07-31 06:25:32
+Seed configurado: 1234
+Corriendo el test de la clase EstimadorOLS con diferentes shapes
+Modificando y - Nueva longitud: 999 (se removió una muestra)
+Error durante la ejecución: Found input variables with inconsistent numbers of samples: [1000, 999]
