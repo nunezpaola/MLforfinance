@@ -151,10 +151,10 @@ $RECYCLE.BIN/
 *.lnk
 
 # Data files (uncomment if you don't want to track data files)
-*.csv
-*.xlsx
-*.json
-*.h5
+#*.csv
+#*.xlsx
+#*.json
+#*.h5
 *.pkl
 *.pickle
 
