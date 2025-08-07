@@ -56,7 +56,7 @@ def print_classification_metrics(model, X_test, y_true):
     log_info(f'Kolmogorov-Smirnov = {ks:.4f}')
 
 
-def setup_logging():
+def setup_logging(log_level=logging.INFO, log_file='mlfin_logs.txt'):
     """Configura el sistema de logging para escribir a archivo y consola.
     """
     # Se eliminan handlers existentes
@@ -64,10 +64,10 @@ def setup_logging():
         logging.root.removeHandler(handler)
     
     # Se configura el formato del logging
-    formatter = logging.Formatter('%(message)s') #%(asctime)s - %(levelname)s - 
-    
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+
     # Handler para archivo (APPEND - agrega al final del archivo)
-    file_handler = logging.FileHandler('ps/ps1_logs.txt', mode='a', encoding='utf-8')
+    file_handler = logging.FileHandler(log_file, mode='a', encoding='utf-8')
     file_handler.setFormatter(formatter)
     
     # Handler para consola
@@ -76,14 +76,22 @@ def setup_logging():
 
     # Se configura el logger
     logging.basicConfig(
-        level=logging.INFO,
+        level=log_level,
         handlers=[file_handler, console_handler],
-        format= '%(message)s' #'%(asctime)s - %(levelname)s - %(message)s',
+        format= '%(asctime)s - %(levelname)s - %(message)s',
     )
 
 def log_info(message):
     """Función helper para loggear información."""
     logging.info(message)
+
+def log_debug(message):
+    """Función helper para loggear mensajes de debug."""
+    logging.debug(message)
+
+def log_warning(message):
+    """Función helper para loggear advertencias."""
+    logging.warning(message)
 
 def log_error(message):
     """Función helper para loggear errores."""
