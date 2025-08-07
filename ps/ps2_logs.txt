@@ -1,0 +1,33 @@
+2025-08-07 04:07:45,208 - INFO - Objetivo de exposición por factor: 20.0%
+2025-08-07 04:07:45,209 - INFO - --- Búsqueda en Grilla ---
+2025-08-07 04:07:45,212 - INFO - Función objetivo (MSE) en óptimo: 0.110
+2025-08-07 04:07:45,214 - INFO - Ponderaciones óptimas: [0.6 0.  0.  0.  0.4]
+2025-08-07 04:07:45,214 - INFO - Exposición óptima a cada factor: [ 0.236  0.293  0.068  0.101 -0.07 ]
+2025-08-07 04:07:45,214 - INFO - --- Optimización Convexa ---
+2025-08-07 04:07:45,233 - INFO - Optimización convexa exitosa con CLARABEL.
+2025-08-07 04:07:45,233 - INFO - Función objetivo (MSE) en el óptimo: 0.106
+2025-08-07 04:07:45,233 - INFO - Ponderaciones óptimas: [0.61  0.    0.04  0.016 0.334]
+2025-08-07 04:07:45,234 - INFO - Exposición óptima a cada factor: [ 0.233  0.244  0.048  0.083 -0.058]
+2025-08-07 04:07:45,235 - INFO - --- Resultado óptimo: optimización convexa ---
+2025-08-07 04:18:34,107 - INFO - Objetivo de exposición por factor: 20.0%
+2025-08-07 04:18:34,118 - INFO - --- Búsqueda en Grilla ---
+2025-08-07 04:18:34,122 - INFO - Función objetivo (MSE) en óptimo: 0.110
+2025-08-07 04:18:34,122 - INFO - Ponderaciones óptimas: [0.6 0.  0.  0.  0.4]
+2025-08-07 04:18:34,123 - INFO - Exposición óptima a cada factor: [ 0.236  0.293  0.068  0.101 -0.07 ]
+2025-08-07 04:18:34,123 - INFO - --- Optimización Convexa ---
+2025-08-07 04:18:34,141 - INFO - Optimización convexa exitosa con CLARABEL.
+2025-08-07 04:18:34,141 - INFO - Función objetivo (MSE) en el óptimo: 0.106
+2025-08-07 04:18:34,143 - INFO - Ponderaciones óptimas: [0.61  0.    0.04  0.016 0.334]
+2025-08-07 04:18:34,143 - INFO - Exposición óptima a cada factor: [ 0.233  0.244  0.048  0.083 -0.058]
+2025-08-07 04:18:34,143 - INFO - --- Resultado óptimo: optimización convexa ---
+2025-08-07 04:21:38,894 - INFO - Objetivo de exposición por factor: 20.0%
+2025-08-07 04:21:38,895 - INFO - --- Búsqueda en Grilla ---
+2025-08-07 04:21:38,899 - INFO - Función objetivo (MSE) en óptimo: 0.110
+2025-08-07 04:21:38,899 - INFO - Ponderaciones óptimas: [0.6 0.  0.  0.  0.4]
+2025-08-07 04:21:38,899 - INFO - Exposición óptima a cada factor: [ 0.236  0.293  0.068  0.101 -0.07 ]
+2025-08-07 04:21:38,900 - INFO - --- Optimización Convexa ---
+2025-08-07 04:21:38,923 - INFO - Optimización convexa exitosa con CLARABEL.
+2025-08-07 04:21:38,923 - INFO - Función objetivo (MSE) en el óptimo: 0.106
+2025-08-07 04:21:38,924 - INFO - Ponderaciones óptimas: [0.61  0.    0.04  0.016 0.334]
+2025-08-07 04:21:38,924 - INFO - Exposición óptima a cada factor: [ 0.233  0.244  0.048  0.083 -0.058]
+2025-08-07 04:21:38,924 - INFO - --- Resultado óptimo: optimización convexa ---
