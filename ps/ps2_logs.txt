@@ -1,33 +1,67 @@
-2025-08-07 04:07:45,208 - INFO - Objetivo de exposición por factor: 20.0%
-2025-08-07 04:07:45,209 - INFO - --- Búsqueda en Grilla ---
-2025-08-07 04:07:45,212 - INFO - Función objetivo (MSE) en óptimo: 0.110
-2025-08-07 04:07:45,214 - INFO - Ponderaciones óptimas: [0.6 0.  0.  0.  0.4]
-2025-08-07 04:07:45,214 - INFO - Exposición óptima a cada factor: [ 0.236  0.293  0.068  0.101 -0.07 ]
-2025-08-07 04:07:45,214 - INFO - --- Optimización Convexa ---
-2025-08-07 04:07:45,233 - INFO - Optimización convexa exitosa con CLARABEL.
-2025-08-07 04:07:45,233 - INFO - Función objetivo (MSE) en el óptimo: 0.106
-2025-08-07 04:07:45,233 - INFO - Ponderaciones óptimas: [0.61  0.    0.04  0.016 0.334]
-2025-08-07 04:07:45,234 - INFO - Exposición óptima a cada factor: [ 0.233  0.244  0.048  0.083 -0.058]
-2025-08-07 04:07:45,235 - INFO - --- Resultado óptimo: optimización convexa ---
-2025-08-07 04:18:34,107 - INFO - Objetivo de exposición por factor: 20.0%
-2025-08-07 04:18:34,118 - INFO - --- Búsqueda en Grilla ---
-2025-08-07 04:18:34,122 - INFO - Función objetivo (MSE) en óptimo: 0.110
-2025-08-07 04:18:34,122 - INFO - Ponderaciones óptimas: [0.6 0.  0.  0.  0.4]
-2025-08-07 04:18:34,123 - INFO - Exposición óptima a cada factor: [ 0.236  0.293  0.068  0.101 -0.07 ]
-2025-08-07 04:18:34,123 - INFO - --- Optimización Convexa ---
-2025-08-07 04:18:34,141 - INFO - Optimización convexa exitosa con CLARABEL.
-2025-08-07 04:18:34,141 - INFO - Función objetivo (MSE) en el óptimo: 0.106
-2025-08-07 04:18:34,143 - INFO - Ponderaciones óptimas: [0.61  0.    0.04  0.016 0.334]
-2025-08-07 04:18:34,143 - INFO - Exposición óptima a cada factor: [ 0.233  0.244  0.048  0.083 -0.058]
-2025-08-07 04:18:34,143 - INFO - --- Resultado óptimo: optimización convexa ---
-2025-08-07 04:21:38,894 - INFO - Objetivo de exposición por factor: 20.0%
-2025-08-07 04:21:38,895 - INFO - --- Búsqueda en Grilla ---
-2025-08-07 04:21:38,899 - INFO - Función objetivo (MSE) en óptimo: 0.110
-2025-08-07 04:21:38,899 - INFO - Ponderaciones óptimas: [0.6 0.  0.  0.  0.4]
-2025-08-07 04:21:38,899 - INFO - Exposición óptima a cada factor: [ 0.236  0.293  0.068  0.101 -0.07 ]
-2025-08-07 04:21:38,900 - INFO - --- Optimización Convexa ---
-2025-08-07 04:21:38,923 - INFO - Optimización convexa exitosa con CLARABEL.
-2025-08-07 04:21:38,923 - INFO - Función objetivo (MSE) en el óptimo: 0.106
-2025-08-07 04:21:38,924 - INFO - Ponderaciones óptimas: [0.61  0.    0.04  0.016 0.334]
-2025-08-07 04:21:38,924 - INFO - Exposición óptima a cada factor: [ 0.233  0.244  0.048  0.083 -0.058]
-2025-08-07 04:21:38,924 - INFO - --- Resultado óptimo: optimización convexa ---
+2025-08-07 06:13:14,518 - DEBUG - BalancedPortfolio inicializado con retornos de activos:
+2025-08-07 06:13:14,518 - DEBUG -                 BOND      SUSA       DNL       XLF      XSLV
+2017-01-04 -0.002672  0.004467  0.003837  0.006082  0.009492
+2017-01-05  0.000016 -0.004249  0.008531 -0.012127 -0.012907
+2017-01-06 -0.002575  0.003045 -0.007955  0.001410 -0.006365
+2017-01-09 -0.000754 -0.007019 -0.000716 -0.008797 -0.015844
+2017-01-10 -0.000660 -0.004898 -0.002214  0.000139  0.005253
+2025-08-07 06:13:14,518 - DEBUG - Cantidad de indices activos: 242
+2025-08-07 06:13:14,534 - DEBUG - Datos iniciales (factores):
+2025-08-07 06:13:14,539 - DEBUG - 
+             Mkt-RF   SMB   HML   RMW   CMA
+Date                                      
+2017-01-03    0.83 -0.09  0.09 -0.25  0.26
+2017-01-04    0.79  0.97 -0.15 -0.41 -0.03
+2017-01-05   -0.21 -1.00 -0.80 -0.17 -0.08
+2017-01-06    0.29 -0.71 -0.32 -0.31 -0.29
+2017-01-09   -0.37 -0.31 -1.03  0.20 -0.52
+2025-08-07 06:13:14,540 - DEBUG - Cantidad de indices factores: 251
+2025-08-07 06:13:14,701 - DEBUG - Matriz de exposiciones (B):
+2025-08-07 06:13:14,701 - DEBUG - 
+            BOND      SUSA       DNL       XLF      XSLV
+Mkt-RF -0.077373  0.949906  0.648680  1.159221  0.705739
+SMB     0.000000 -0.050902 -0.000000 -0.074632  0.732842
+HML    -0.122477 -0.111138 -0.303855  1.036587  0.354572
+RMW     0.000000  0.084942 -0.000000 -0.099731  0.252516
+CMA     0.000000  0.047985  0.199319 -0.493876 -0.173822
+2025-08-07 06:13:14,701 - INFO - Objetivo de exposición por factor: 20.0%
+2025-08-07 06:13:14,701 - INFO - --- Búsqueda en Grilla ---
+2025-08-07 06:13:14,701 - DEBUG - Número de activos: 5, Número de factores: 5
+2025-08-07 06:13:14,701 - DEBUG - Nueva mejor combinación (#1): [0. 0. 0. 0. 1.]
+2025-08-07 06:13:14,716 - DEBUG -   Pesos: [0. 0. 0. 0. 1.]
+2025-08-07 06:13:14,716 - DEBUG -   Score: 0.706086
+2025-08-07 06:13:14,717 - DEBUG - Nueva mejor combinación (#7): [0.  0.  0.2 0.  0.8]
+2025-08-07 06:13:14,717 - DEBUG -   Pesos: [0.  0.  0.2 0.  0.8]
+2025-08-07 06:13:14,717 - DEBUG -   Score: 0.483611
+2025-08-07 06:13:14,718 - DEBUG - Nueva mejor combinación (#12): [0.  0.  0.4 0.  0.6]
+2025-08-07 06:13:14,718 - DEBUG -   Pesos: [0.  0.  0.4 0.  0.6]
+2025-08-07 06:13:14,718 - DEBUG -   Score: 0.355284
+2025-08-07 06:13:14,719 - DEBUG - Nueva mejor combinación (#16): [0.  0.  0.6 0.  0.4]
+2025-08-07 06:13:14,719 - DEBUG -   Pesos: [0.  0.  0.6 0.  0.4]
+2025-08-07 06:13:14,719 - DEBUG -   Score: 0.321104
+2025-08-07 06:13:14,722 - DEBUG - Nueva mejor combinación (#62): [0.2 0.  0.2 0.  0.6]
+2025-08-07 06:13:14,722 - DEBUG -   Pesos: [0.2 0.  0.2 0.  0.6]
+2025-08-07 06:13:14,722 - DEBUG -   Score: 0.249037
+2025-08-07 06:13:14,723 - DEBUG - Nueva mejor combinación (#66): [0.2 0.  0.4 0.  0.4]
+2025-08-07 06:13:14,724 - DEBUG -   Pesos: [0.2 0.  0.4 0.  0.4]
+2025-08-07 06:13:14,724 - DEBUG -   Score: 0.202667
+2025-08-07 06:13:14,725 - DEBUG - Nueva mejor combinación (#92): [0.4 0.  0.  0.  0.6]
+2025-08-07 06:13:14,725 - DEBUG -   Pesos: [0.4 0.  0.  0.  0.6]
+2025-08-07 06:13:14,725 - DEBUG -   Score: 0.190772
+2025-08-07 06:13:14,725 - DEBUG - Nueva mejor combinación (#96): [0.4 0.  0.2 0.  0.4]
+2025-08-07 06:13:14,725 - DEBUG -   Pesos: [0.4 0.  0.2 0.  0.4]
+2025-08-07 06:13:14,726 - DEBUG -   Score: 0.132212
+2025-08-07 06:13:14,726 - DEBUG - Nueva mejor combinación (#112): [0.6 0.  0.  0.  0.4]
+2025-08-07 06:13:14,726 - DEBUG -   Pesos: [0.6 0.  0.  0.  0.4]
+2025-08-07 06:13:14,726 - DEBUG -   Score: 0.109740
+2025-08-07 06:13:14,727 - DEBUG - Evaluadas 126 combinaciones
+2025-08-07 06:13:14,727 - INFO - Función objetivo (MSE) en óptimo: 0.110
+2025-08-07 06:13:14,727 - INFO - Ponderaciones óptimas: [0.6 0.  0.  0.  0.4]
+2025-08-07 06:13:14,728 - INFO - Exposición óptima a cada factor: [ 0.236  0.293  0.068  0.101 -0.07 ]
+2025-08-07 06:13:14,728 - INFO - --- Optimización Convexa ---
+2025-08-07 06:13:14,730 - DEBUG - Intentando con solver: CLARABEL
+2025-08-07 06:13:14,736 - INFO - Optimización convexa exitosa con CLARABEL.
+2025-08-07 06:13:14,736 - INFO - Función objetivo (MSE) en el óptimo: 0.106
+2025-08-07 06:13:14,736 - INFO - Ponderaciones óptimas: [0.61  0.    0.04  0.016 0.334]
+2025-08-07 06:13:14,736 - INFO - Exposición óptima a cada factor: [ 0.233  0.244  0.048  0.083 -0.058]
+2025-08-07 06:13:14,751 - INFO - --- Resultado óptimo: optimización convexa ---

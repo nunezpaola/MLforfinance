@@ -76,7 +76,7 @@ def setup_logging(log_level=logging.INFO, log_file='mlfin_logs.txt'):
 
     # Se configura el logger
     logging.basicConfig(
-        level=logging.INFO,
+        level=log_level,
         handlers=[file_handler, console_handler],
         format= '%(asctime)s - %(levelname)s - %(message)s',
     )

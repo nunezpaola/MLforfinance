@@ -45,7 +45,7 @@ class BalancedPortfolio:
         """
 
         log_debug("Datos iniciales (factores):")
-        log_debug(factor_returns.head())
+        log_debug(f"\n {factor_returns.head()}")
         log_debug(f"Cantidad de indices factores: {len(factor_returns.index)}")
 
         # Log fechas que no coinciden
@@ -75,7 +75,7 @@ class BalancedPortfolio:
         n_assets, n_factors = B.shape
 
         log_debug("Matriz de exposiciones (B):")
-        log_debug(B)
+        log_debug(f"\n{pd.DataFrame(B, index=factors, columns=assets)}")
 
         # Objetivo: exposición igual a cada factor
         target_exposure = 1.0 / n_factors

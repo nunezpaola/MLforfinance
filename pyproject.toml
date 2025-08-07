@@ -39,6 +39,7 @@ dependencies = [
     "logger>=1.4",
     "flake8>=7.3.0",
     "cvxpy>=1.7.1",
+    "seaborn>=0.13.2",
 ]
 
 # Dependencias opcionales para diferentes características
