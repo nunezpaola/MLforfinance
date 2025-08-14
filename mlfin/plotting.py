@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import sklearn.metrics as sk_mt
 
 
-def plot_roc_curve(model, X_test, y_true):
+def plot_roc_curve(model, X_test, y_true, save=True, 
+                   filename="ps/figures/roc_curve.png"):
     """
     Grafica curva ROC para un modelo de clasificación binaria dado.
     Parámetros
@@ -28,10 +29,13 @@ def plot_roc_curve(model, X_test, y_true):
     plt.axis([0, 1, 0, 1])
     plt.xlabel('False positive rate')
     plt.ylabel('True positive rate')
+    if save:
+        plt.savefig(filename, dpi=300)
     plt.show()
 
 
-def plot_feature_importance(feature_importances, feature_names):
+def plot_feature_importance(feature_importances, feature_names, save=True, 
+                            filename="ps/figures/feature_importance.png"):
     """
     Grafica importancia de features
     IMPORTANTE: Ambos iterables deben estar correlacionados en ubicación
@@ -53,4 +57,6 @@ def plot_feature_importance(feature_importances, feature_names):
     ax.set_yticklabels(np.array(feature_names)[order])
 
     ax.invert_yaxis()
+    if save:
+        plt.savefig(filename, dpi=300)
     plt.show()

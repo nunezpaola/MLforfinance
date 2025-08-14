@@ -1,0 +1,38 @@
+2025-08-14 12:17:02,581 - INFO - 
+==== Evaluando método de umbral: fixed ====
+2025-08-14 12:19:33,491 - INFO - Entidades en riesgo de default = 6.00000%
+2025-08-14 12:19:33,508 - INFO - Activos en riesgo (USD B): 0.00118  (0.09965%)
+2025-08-14 12:19:33,508 - INFO - Total de activos del sistema (USD B): 1.18525
+2025-08-14 12:19:33,508 - INFO - Umbral usado: 0.5000  (método: fixed(value))
+2025-08-14 12:19:33,524 - INFO - 
+==== Evaluando método de umbral: youden ====
+2025-08-14 12:21:12,971 - INFO - Entidades en riesgo de default = 10.00000%
+2025-08-14 12:21:12,989 - INFO - Activos en riesgo (USD B): 0.67882  (57.27266%)
+2025-08-14 12:21:12,989 - INFO - Total de activos del sistema (USD B): 1.18525
+2025-08-14 12:21:12,989 - INFO - Umbral usado: 0.2250  (método: youden)
+2025-08-14 12:21:12,989 - INFO - 
+==== Evaluando método de umbral: f1 ====
+2025-08-14 12:22:42,365 - INFO - Entidades en riesgo de default = 10.00000%
+2025-08-14 12:22:42,365 - INFO - Activos en riesgo (USD B): 0.67882  (57.27266%)
+2025-08-14 12:22:42,374 - INFO - Total de activos del sistema (USD B): 1.18525
+2025-08-14 12:22:42,375 - INFO - Umbral usado: 0.2329  (método: f1)
+2025-08-14 12:22:42,375 - INFO - 
+==== Evaluando método de umbral: cost ====
+2025-08-14 12:24:10,875 - INFO - Entidades en riesgo de default = 26.00000%
+2025-08-14 12:24:10,883 - INFO - Activos en riesgo (USD B): 0.72952  (61.55027%)
+2025-08-14 12:24:10,884 - INFO - Total de activos del sistema (USD B): 1.18525
+2025-08-14 12:24:10,885 - INFO - Umbral usado: 0.0420  (método: cost)
+2025-08-14 12:24:10,887 - INFO - 
+==== Evaluando método de umbral: target_rate ====
+2025-08-14 12:25:57,709 - INFO - Entidades en riesgo de default = 10.00000%
+2025-08-14 12:25:57,724 - INFO - Activos en riesgo (USD B): 0.67882  (57.27266%)
+2025-08-14 12:25:57,724 - INFO - Total de activos del sistema (USD B): 1.18525
+2025-08-14 12:25:57,725 - INFO - Umbral usado: 0.2003  (método: target_rate)
+2025-08-14 12:25:57,809 - INFO - 
+==== Comparación de métodos de umbral (sobre df_predict) ====
+2025-08-14 12:25:57,974 - INFO -      method best_model_name  best_cv_auc  threshold  pct_entidades_riesgo  pct_activos_riesgo  total_activos_usd_B
+       cost             SVC     0.986418   0.042000                  26.0           61.550268             1.185249
+         f1             SVC     0.986418   0.232945                  10.0           57.272664             1.185249
+     youden             SVC     0.986418   0.224956                  10.0           57.272664             1.185249
+target_rate             SVC     0.986418   0.200339                  10.0           57.272664             1.185249
+      fixed             SVC     0.986418   0.500000                   6.0            0.099650             1.185249
