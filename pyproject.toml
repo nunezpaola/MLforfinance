@@ -12,12 +12,12 @@ authors = [
 ]
 readme = "readme.md"
 license = "MIT"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Financial and Insurance Industry",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.10",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Office/Business :: Financial",
 ]
@@ -40,6 +40,7 @@ dependencies = [
     "flake8>=7.3.0",
     "cvxpy>=1.7.1",
     "seaborn>=0.13.2",
+    "openpyxl>=3.1.5",
 ]
 
 # Dependencias opcionales para diferentes características
@@ -102,7 +103,7 @@ addopts = [
 ]
 
 [tool.mypy]
-python_version = "3.12"
+python_version = "3.10"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
