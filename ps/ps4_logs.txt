@@ -1,0 +1,80 @@
+2025-08-21 11:47:11,233 - INFO - [KMeans] Mejor K por CH: 9 (CH=398.27)
+2025-08-21 11:47:11,235 - INFO - [Agglomerative] Mejor K por CH: 10 (CH=391.27)
+2025-08-21 11:47:11,552 - INFO - Comparativo: 
+        ID TIPO  VOLAT    r3m    r6m  ...  km_pred_tipo  ag_pred_tipo km_flag_diff ag_flag_diff  flag_raro
+0    MM_0   MM   1.90  13.59  27.83  ...            MM            MM        False        False      False
+1    MM_1   MM   1.67  12.48  26.45  ...            MM            MM        False        False      False
+2    MM_2   MM   1.74  12.85  27.18  ...            MM            MM        False        False      False
+3    MM_3   MM   1.75  12.74  26.95  ...            MM            MM        False        False      False
+4    MM_4   MM   1.82  13.37  27.78  ...            MM            MM        False        False      False
+5    MM_5   MM   1.77  12.89  27.46  ...            MM            MM        False        False      False
+6    MM_6   MM   1.80  13.23  27.53  ...            MM            MM        False        False      False
+7    MM_7   MM   1.78  13.09  27.68  ...            MM            MM        False        False      False
+8    MM_8   MM   1.75  12.79  27.06  ...            MM            MM        False        False      False
+9    MM_9   MM   1.73  12.66  26.73  ...            MM            MM        False        False      False
+10  MM_10   MM   1.74  12.80  27.40  ...            MM            MM        False        False      False
+11  MM_11   MM   1.70  12.51  26.44  ...            MM            MM        False        False      False
+12  MM_12   MM   1.71  12.56  26.40  ...            MM            MM        False        False      False
+13  MM_13   MM   1.74  12.64  26.60  ...            MM            MM        False        False      False
+14  MM_14   MM   1.59  12.32  26.08  ...            MM            MM        False        False      False
+15  MM_15   MM   1.67  12.34  26.03  ...            MM            MM        False        False      False
+16  MM_16   MM   1.72  12.57  26.28  ...            MM            MM        False        False      False
+17  MM_17   MM   1.71  12.61  26.54  ...            MM            MM        False        False      False
+18  MM_18   MM   1.64  12.15  25.57  ...            MM            MM        False        False      False
+19  MM_19   MM   1.68  12.23  26.17  ...            MM            MM        False        False      False
+20  RF_20   RF   9.68  10.48  14.63  ...            RF            RF        False        False      False
+21  RF_21   RF  12.75   4.64  15.11  ...            RF            RF        False        False      False
+22  RF_22   RF   7.59   3.35  13.68  ...            RF            RF        False        False      False
+23  RF_23   RF   7.73  10.64  13.79  ...            RF            RF        False        False      False
+24  RF_24   RF   5.72  12.73  15.05  ...            RF            RF        False        False      False
+25  RF_25   RF   7.58   5.30  16.99  ...            RF            RF        False        False      False
+26  RF_26   RF   6.81  15.20  20.07  ...            RF            RF        False        False      False
+27  RF_27   RF   8.17   6.65  14.14  ...            RF            RF        False        False      False
+28  RF_28   RF   4.92  10.94  15.94  ...            RF            RF        False        False      False
+29  RF_29   RF   5.41  14.98  18.08  ...            RF            RF        False        False      False
+30  RF_30   RF   5.94  12.38  15.00  ...            RF            RF        False        False      False
+31  RF_31   RF   3.59  13.42  18.42  ...            RF            RF        False        False      False
+32  RF_32   RF   5.95  15.06  14.42  ...            RF            RF        False        False      False
+33  RF_33   RF  11.84   6.77  11.52  ...            RF            RF        False        False      False
+34  RF_34   RF  10.31   3.76  10.04  ...            RF            RF        False        False      False
+35  RF_35   RF  10.45   3.17  17.44  ...            RF            RF        False        False      False
+36  RF_36   RF   6.92  13.95  14.21  ...            RF            RF        False        False      False
+38  RF_38   RF   8.84   2.85   4.61  ...            RF            RF        False        False      False
+39  RF_39   RF   5.06   4.95  17.40  ...            RF            RF        False        False      False
+40  EQ_40   EQ  38.41  27.12  13.23  ...            EQ            EQ        False        False      False
+41  EQ_41   EQ  38.68  30.09  14.90  ...            EQ            EQ        False        False      False
+42  EQ_42   EQ  37.83  27.10  15.49  ...            EQ            EQ        False        False      False
+43  EQ_43   EQ  38.70  29.28  13.64  ...            EQ            EQ        False        False      False
+44  EQ_44   EQ  37.74  29.10  17.22  ...            EQ            EQ        False        False      False
+45  EQ_45   EQ  37.30  26.78  13.54  ...            EQ            EQ        False        False      False
+46  EQ_46   EQ  38.32  28.90  14.82  ...            EQ            EQ        False        False      False
+47  EQ_47   EQ  36.35  27.46  18.83  ...            EQ            EQ        False        False      False
+48  EQ_48   EQ  37.57  26.55  17.35  ...            EQ            EQ        False        False      False
+49  EQ_49   EQ  37.30  25.60  10.65  ...            EQ            EQ        False        False      False
+50  EQ_50   EQ  37.00  29.35  17.08  ...            EQ            EQ        False        False      False
+51  EQ_51   EQ  37.02  24.88  11.39  ...            EQ            EQ        False        False      False
+52  EQ_52   EQ  35.85  27.44  15.12  ...            EQ            EQ        False        False      False
+53  EQ_53   EQ  37.07  26.37  11.85  ...            EQ            EQ        False        False      False
+54  EQ_54   EQ  36.53  25.74  13.13  ...            EQ            EQ        False        False      False
+55  EQ_55   EQ  34.86  25.50  14.01  ...            EQ            EQ        False        False      False
+56  EQ_56   EQ  32.44  25.64  15.90  ...            EQ            EQ        False        False      False
+57  EQ_57   EQ  33.08  30.39  13.70  ...            EQ            EQ        False        False      False
+58  EQ_58   EQ  33.10  27.56  10.82  ...            EQ            EQ        False        False      False
+
+[58 rows x 12 columns]
+2025-08-21 11:47:11,586 - INFO - Tablas: 
+            kmeans            agglo            
+km_cluster      0   1  2   3     0   1   2   3
+tipo                                          
+EQ              0  19  0   0     0  19   0   0
+MM             20   0  0   0     0   0  20   0
+RF              0   0  9  10     9   0   0  10
+2025-08-21 11:47:11,604 - INFO - Diferencias (KMeans - Agglomerative): 
+km_cluster   0  1   2  3
+tipo                    
+EQ           0  0   0  0
+MM          20  0 -20  0
+RF          -9  0   9  0
+2025-08-21 11:47:16,351 - INFO - [RESUMEN] Diferencias con K=3: 
+        ID TIPO km_pred_tipo ag_pred_tipo  cluster_kmeans  cluster_agglo
+26  RF_26   RF           MM           RF               2              0
